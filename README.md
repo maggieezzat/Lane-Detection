@@ -1,14 +1,20 @@
-## Project 1: Advanced Lane Finding
+# Advanced Lane Finding
 
-### Project Description:
-In this project you are required to use cv2 library to implement a self-driving car module that is responsible for detecting lane lines under different lighting conditions, pavement textures and curves.
+An opencv-based implementation of a self-driving car module responsible for detecting lane lines under different lighting conditions, pavement textures and curves.
+
+**Implementation includes the following:** 
+
+- Camera calibration and distortion correction.
+- Applying Gaussian Blur.
+- Edge Detection using Sobel.
+- Color/gradient thresholding.
+- Perspective transform.
+- Detecting lane lines using peaks of histogram and sliding window.
+- Drawing lanes on the original image
+- Determining the lane curvature.
 
 
-### Teams:
-You are required to form teams of **two to three** for this project.
-
-### Submission:
-
-You are required to submit a python notebook (.ipynb) file containing your implementation and team member names.
-
-**Deadline:** 4<sup>th</sup> of April 2020 by **midnight**
+## Dependencies:
+1. `pip install numpy`
+2. `pip install matplotlib`
+3. `pip install opencv-python`
